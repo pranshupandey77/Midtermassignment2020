@@ -1,13 +1,13 @@
 
 <?php
 
-$enroll = $_GET['enroll'];
+$enrollment = $_GET['enrollment'];
 
 
-if (!empty($enroll)){ 
+if (!empty($enrollment)){ 
 include 'config.php';
 
-  $sql=" delete from details where enroll=$enroll";
+  $sql=" delete from details where enrollment=$enrollment";
   if($conn->query($sql)){
     header("location:details.php");
   }
