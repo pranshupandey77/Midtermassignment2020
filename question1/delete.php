@@ -17,7 +17,7 @@ include 'config.php';
   }
 }
  else {
- echo "enroll no not reached";
+ echo "enrollment no not reached";
 }
 
 
